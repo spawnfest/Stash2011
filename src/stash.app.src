@@ -1,0 +1,12 @@
+{application, stash,
+ [
+  {description, "Memcached Erlang alternative"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { stash_app, []}},
+  {env, []}
+ ]}.
